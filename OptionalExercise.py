@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import caffe
 import time
 
-MODEL_JOB_NUM = '##KENDİ DIGITS ORTAMINIZDAKİ JOB NUMBER##'  ## Remember to set this to be the job number for your model
-DATASET_JOB_NUM = '##KENDİ DIGITS ORTAMINIZDAKİ JOB NUMBER##'  ## Remember to set this to be the job number for your dataset
+MODEL_JOB_NUM = '##FIXME##'  ## Remember to set this to be the job number for your model
+DATASET_JOB_NUM = '##FIXME##'  ## Remember to set this to be the job number for your dataset
 
 MODEL_FILE = '/dli/data/digits/' + MODEL_JOB_NUM + '/deploy.prototxt'                 # Do not change
 PRETRAINED = '/dli/data/digits/' + MODEL_JOB_NUM + '/snapshot_iter_735.caffemodel'    # Do not change
